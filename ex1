@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+main(){
+       float F,C;
+       printf("Coloque o valor de C \n", C);
+       scanf("%f",&C);
+       F=1.8*C+32;
+       printf("O resultado eh = %f \n", F);
+       
+       system("pause");
+}       
